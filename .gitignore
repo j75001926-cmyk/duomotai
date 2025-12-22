@@ -1,0 +1,59 @@
+# Python 缓存和环境
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+# 环境变量和密钥（千万不要提交！）
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 其他密钥文件
+*.key
+*.pem
+*.secrets
+
+# 大文件和数据目录（强烈建议忽略）
+data/
+uploads/
+previews/
+chroma_db/
+chroma_db_floor_plan/
+*.npy
+*.pt
+*.pth
+*.bin
+*.zip
+*.tar.gz
+*.7z
+
+# 图片、PDF、CAD 等大文件（如果想用 git lfs 提交，可以不写这里）
+# *.jpg
+# *.jpeg
+# *.png
+# *.pdf
+
+# 测试数据（如果里面是大文件，建议忽略；如果只是小文件，可以提交）
+test_data/
+
+# 编辑器和 IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 第三方工具目录
+poppler-*/
+
+# macOS 和 Windows 垃圾文件
+.DS_Store
+Thumbs.db
